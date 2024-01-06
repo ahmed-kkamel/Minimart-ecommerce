@@ -25,3 +25,34 @@
 	font-size: 0.9rem;
 	color: #222;
 }
+@media only screen and (max-width: 992px) {
+	.service__item {
+		padding: 10px;
+		margin-bottom: 1.5rem;
+	}
+
+	.service__item span i {
+		font-size: 1.8rem;
+		padding: 5px;
+	}
+	.service__item div h3 {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 786px) {
+	.service__item span i {
+		font-size: 1.4rem;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.service__item {
+		padding: 20px;
+	}
+
+	.service__item span i {
+		font-size: 1.6rem;
+	}
+	.service__item div h3 {
+		font-size: 1.2rem;
+	}
+}

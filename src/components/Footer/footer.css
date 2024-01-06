@@ -1,0 +1,35 @@
+.footer {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background: var(--primary-color);
+}
+.logo__text {
+	color: #ffffffa3;
+	line-height: 30px;
+}
+.footer__quick-links ul li {
+	background: transparent;
+}
+.footer__quick-links ul li a {
+	color: #ffffffa3;
+}
+.quick__links-title {
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 1.1rem;
+}
+.footer__contact li span,
+.footer__contact li p {
+	color: #ffffffa3;
+}
+.footer__contact li span {
+	font-size: 1.1rem;
+}
+.footer__contact li p {
+	font-size: 0.9rem;
+}
+.footer__copyright {
+	color: #ffffffa3;
+	border-top: 1px solid #ffffff0e;
+	padding-top: 20px;
+}
