@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Helmet from "./../components/Helmet/Helmet";
 import CommonSection from "./../components/UI/CommonSection";
 import { Col, Container, Row } from "reactstrap";
@@ -10,6 +10,9 @@ import { Link } from "react-router-dom";
 const Cart = () => {
 	const cartItems = useSelector((state) => state.cart.cartItems);
 	const totalAmount = useSelector((state) => state.cart.totalAmount);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<Helmet title="Cart">
 			<CommonSection title="Shopping Cart" />
@@ -18,7 +21,7 @@ const Cart = () => {
 					<Row>
 						<Col lg="9">
 							{cartItems.length === 0 ? (
-								<h2 className="fs-4 text-center">Your cart is empty</h2>
+								<h2 className="fs-4 text-center mb-5">Your cart is empty</h2>
 							) : (
 								<table className="table bordered">
 									<thead>

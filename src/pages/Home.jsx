@@ -44,6 +44,9 @@ const Home = () => {
 		setWirelessProducts(filteredWirelessProducts);
 		setPopularProducts(filteredPopularProducts);
 	}, []);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<Helmet title={"Home"}>
 			<section className="hero__section">

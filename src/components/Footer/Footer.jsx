@@ -13,7 +13,7 @@ const Footer = () => {
 					<Col lg="4" md="6" className="mb-4">
 						<div className="logo">
 							<div>
-								<h1 className="text-white">Multimart</h1>
+								<h1 className="text-white">Minimart</h1>
 							</div>
 						</div>
 						<p className="logo__text mt-4">
@@ -68,13 +68,13 @@ const Footer = () => {
 									<span>
 										<i className="ri-map-pin-line"></i>
 									</span>
-									<p>23 Market Square, Cairo, Egypt</p>
+									<p>23Market Square, Cairo, Egypt</p>
 								</ListGroupItem>
 								<ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
 									<span>
 										<i className="ri-phone-line"></i>
 									</span>
-									<p>+20 106 25436213</p>
+									<p>+20 106 23456789234</p>
 								</ListGroupItem>
 								<ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
 									<span>

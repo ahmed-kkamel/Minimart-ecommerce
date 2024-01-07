@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import { Col, Container, Form, FormGroup, Row } from "reactstrap";
@@ -7,6 +7,9 @@ import { useSelector } from "react-redux";
 const Checkout = () => {
 	const totalQuantity = useSelector((state) => state.cart.totalQuantinty);
 	const totalAmount = useSelector((state) => state.cart.totalAmount);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<Helmet title="Checkout">
 			<CommonSection title="Checkout" />

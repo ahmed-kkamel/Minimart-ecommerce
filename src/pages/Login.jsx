@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import { Col, Container, Form, Row, FormGroup } from "reactstrap";
@@ -32,6 +32,9 @@ const Login = () => {
 			toast.error(error.message);
 		}
 	};
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<Helmet title="Login">
 			<CommonSection title="Login" />
