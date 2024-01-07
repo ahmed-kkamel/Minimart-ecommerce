@@ -23,8 +23,6 @@ const Login = () => {
 				email,
 				password
 			);
-			const user = userCredential.user;
-			console.log(user);
 			toast.success("Successfuly logged in");
 			navigate("/checkout");
 		} catch (error) {
