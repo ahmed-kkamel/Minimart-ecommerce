@@ -62,7 +62,7 @@ const Home = () => {
 									whileTap={{ scale: 1.1 }}
 									className="buy__button"
 								>
-									<Link to="shop">SHOP NOW</Link>
+									<Link to="/shop">SHOP NOW</Link>
 								</motion.button>
 							</div>
 						</Col>
@@ -97,7 +97,7 @@ const Home = () => {
 			<section className="timer__count">
 				<Container>
 					<Row>
-						<Col lg="6" md="12 text-center">
+						<Col lg="6" md="12" className="timer-col">
 							<div className="clock__top-content">
 								<h3 className="text-white fs-6 mb-2">Limited Offers</h3>
 								<h2 className="text-white fs-5 mb-3">Quality Armchair</h2>
